@@ -28,7 +28,6 @@ function iLoveTheBeatles(number) {
   var strings = [];
   do () {
     
-  } while () {
-    
-  }
+  } while (i < 15)
+  return strings;
 }
