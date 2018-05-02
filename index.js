@@ -28,6 +28,6 @@ function iLoveTheBeatles(number) {
   var strings = [];
   do () {
     strings.push("I love the Beatles!");
-  } while (i < 15)
+  } while (i < 15);
   return strings;
 }
