@@ -16,7 +16,7 @@ function johnLennonFacts(FactsArray) {
   var i = 0;
   var NewArray = [];
   while (FactsArray.length  > i) {
-    NewArray[i] = Object.assign({}, NewArray, { [i]: `${FactsArray[i]}` + "!!!"});
+    NewArray[i] = Object.assign({}, NewArray, { [`${FactsArray[i]}`]:  + "!!!"}); //NewArray[i] = Object.assign({}, NewArray, { [i]: `${FactsArray[i]}` + "!!!"});
     i++;
   }
   return NewArray;
