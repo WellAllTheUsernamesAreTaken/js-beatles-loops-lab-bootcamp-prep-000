@@ -2,9 +2,9 @@ function theBeatlesPlay(musiciansArray, instrumentsArray) {
   var musiciansInfo = [];
   for (let i = 0; i < musiciansArray.length; i++) {
     musiciansInfo.push(`${musiciansArray[i]} plays ${instrumentsArray[i]}`);
-    //musiciansInfo[i] = Object.assign({}, MusiciansInfo, { [i]: `${musiciansArray[i]} plays ${instrumentsArray[i]}`}); 
+    //musiciansInfo[i] = Object.assign({}, musiciansInfo, { [i]: `${musiciansArray[i]} plays ${instrumentsArray[i]}`}); 
   }
-  return MusiciansInfo;
+  return musiciansInfo;
 }
 
 const facts = [
@@ -13,18 +13,18 @@ const facts = [
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ];
-function johnLennonFacts(FactsArray) {
+function johnLennonFacts(factsArray) {
   var i = 0;
   var newArray = [];
-  while (FactsArray.length  > i) {
-    newArray.push(`${FactsArray[i]}` + "!!!");
-    //newArray[i] = Object.assign({}, newArray, { [i]: `${FactsArray[i]}` + "!!!"});
+  while (factsArray.length  > i) {
+    newArray.push(`${factsArray[i]}` + "!!!");
+    //newArray[i] = Object.assign({}, newArray, { [i]: `${factsArray[i]}` + "!!!"});
     i++;
   }
   return newArray;
 } 
 
-function iLoveTheBeatles(Number) {
+function iLoveTheBeatles(number) {
   var strings = [];
   do () {
     
