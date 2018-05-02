@@ -1,8 +1,8 @@
 function theBeatlesPlay(musiciansArray, instrumentsArray) {
-  var MusiciansInfo = [];
+  var musiciansInfo = [];
   for (let i = 0; i < musiciansArray.length; i++) {
-    MusiciansInfo.push(`${musiciansArray[i]} plays ${instrumentsArray[i]}`);
-    //MusiciansInfo[i] = Object.assign({}, MusiciansInfo, { [i]: `${musiciansArray[i]} plays ${instrumentsArray[i]}`}); 
+    musiciansInfo.push(`${musiciansArray[i]} plays ${instrumentsArray[i]}`);
+    //musiciansInfo[i] = Object.assign({}, MusiciansInfo, { [i]: `${musiciansArray[i]} plays ${instrumentsArray[i]}`}); 
   }
   return MusiciansInfo;
 }
@@ -15,13 +15,20 @@ const facts = [
 ];
 function johnLennonFacts(FactsArray) {
   var i = 0;
-  var NewArray = [];
+  var newArray = [];
   while (FactsArray.length  > i) {
-    NewArray.push(`${FactsArray[i]}` + "!!!");
-    //NewArray[i] = Object.assign({}, NewArray, { [i]: `${FactsArray[i]}` + "!!!"});
+    newArray.push(`${FactsArray[i]}` + "!!!");
+    //newArray[i] = Object.assign({}, newArray, { [i]: `${FactsArray[i]}` + "!!!"});
     i++;
   }
-  return NewArray;
+  return newArray;
 } 
 
-function 
+function iLoveTheBeatles(Number) {
+  var strings = [];
+  do () {
+    
+  } while () {
+    
+  }
+}
